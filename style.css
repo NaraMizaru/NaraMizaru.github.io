@@ -1,0 +1,51 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn-custom {
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-custom-purple {
+  background-color: #810CA8;
+  color: white;
+}
+
+.btn-custom-purple:hover {
+  color: white;
+  background-color: #C147E9;
+}
+
+.portofolio {
+  min-height: 100vh;
+}
+
+.contact {
+  min-height: 75vh;
+}
+
+.findme-item {
+  display: flex;
+  box-shadow: rgb(149 157 165 / 20%) 0px 16px 48px;
+  padding: 10px 26px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #000;
+}
+
+.findme-item:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  padding: 15px;
+}
