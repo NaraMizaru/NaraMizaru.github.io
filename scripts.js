@@ -1,21 +1,21 @@
 // Adding Dark Mode Theme
 const toggle = document.getElementById("theme-icon");
 
-var navbar = document.getElementById("navbar");
-var home = document.getElementById("home");
-var portofolio = document.getElementById("portofolio");
-var headPortofolio = document.getElementById("head-portofolio");
-var descriptionPortofolio = document.getElementById("description-portofolio")
-var portoCard = document.getElementById("portofolio-card");
-var portoCard2 = document.getElementById("portofolio-card2");
-var portoCard3 = document.getElementById("portofolio-card3");
-var contact = document.getElementById("contact");
-var findmeCard = document.getElementById("findme-card");
-var findmeCard2 = document.getElementById("findme-card2");
-var findmeCard3 = document.getElementById("findme-card3");
-var findmeCard4 = document.getElementById("findme-card4");
-var findmeCard5 = document.getElementById("findme-card5");
-var footer = document.getElementById("footer");
+let navbar = document.getElementById("navbar");
+let home = document.getElementById("home");
+let portofolio = document.getElementById("portofolio");
+let headPortofolio = document.getElementById("head-portofolio");
+let descriptionPortofolio = document.getElementById("description-portofolio")
+let portoCard = document.getElementById("portofolio-card");
+let portoCard2 = document.getElementById("portofolio-card2");
+let portoCard3 = document.getElementById("portofolio-card3");
+let contact = document.getElementById("contact");
+let findmeCard = document.getElementById("findme-card");
+let findmeCard2 = document.getElementById("findme-card2");
+let findmeCard3 = document.getElementById("findme-card3");
+let findmeCard4 = document.getElementById("findme-card4");
+let findmeCard5 = document.getElementById("findme-card5");
+let footer = document.getElementById("footer");
 
 toggle.onclick = function() {
   document.body.classList.toggle("dark-theme")
